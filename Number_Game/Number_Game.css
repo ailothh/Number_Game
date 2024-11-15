@@ -1,0 +1,33 @@
+body {
+    font-family: papyrus;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: lightcoral;
+}
+/*box*/
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    /*round */
+    border-radius: 10px;
+}
+
+button {
+    padding: 8px;
+    background-color: #333;
+    /*text color*/
+    color: #fff;
+    border: none;
+    /* round*/
+    border-radius: 5px;
+}
+
+#feedback {
+    margin-top: 8px;
+    /* output*/
+    font-weight: bold;
+}
